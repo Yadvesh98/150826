@@ -7,6 +7,14 @@ rgs = {
       ManagedBy   = "Terraform"
     }
   }
+  "rg-preprod-02" = {
+    name     = "rg-preprod-eastus-02"
+    location = "East US"
+    tags = {
+      Environment = "Pre-Prod"
+      ManagedBy   = "Terraform"
+    }
+  }
 }
 
 vnets = {
